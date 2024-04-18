@@ -1,13 +1,14 @@
 {
   "project_info": {
-    "project_number": "822822023460",
-    "project_id": "notes-7958a",
-    "storage_bucket": "notes-7958a.appspot.com"
+    "project_number": "857366467986",
+    "firebase_url": "https://notes-e5c78-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "notes-e5c78",
+    "storage_bucket": "notes-e5c78.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:822822023460:android:c1cd4438367cf4e78583b1",
+        "mobilesdk_app_id": "1:857366467986:android:79b9a07c0d00d76cd1dd4b",
         "android_client_info": {
           "package_name": "com.example.notes"
         }
@@ -15,7 +16,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyB23KUk4Qswf5r7lyvD2s0Qa073KwleBB8"
+          "current_key": "AIzaSyC___0tUZfuknp7KKscTSd9-yScGx5_N2Y"
         }
       ],
       "services": {

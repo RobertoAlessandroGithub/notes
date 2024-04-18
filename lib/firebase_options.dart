@@ -44,38 +44,42 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCD-QEN7JTQ2mJm-jYOkOS4ziyUdsKwc2k',
-    appId: '1:822822023460:web:73c4b45b3dfba6928583b1',
-    messagingSenderId: '822822023460',
-    projectId: 'notes-7958a',
-    authDomain: 'notes-7958a.firebaseapp.com',
-    storageBucket: 'notes-7958a.appspot.com',
-    measurementId: 'G-087JKGV0YV',
+    apiKey: 'AIzaSyDJ_7-kH7yz-wGCdV85dzcmDNVfXez9ru8',
+    appId: '1:857366467986:web:016397a5cac1c674d1dd4b',
+    messagingSenderId: '857366467986',
+    projectId: 'notes-e5c78',
+    authDomain: 'notes-e5c78.firebaseapp.com',
+    databaseURL: 'https://notes-e5c78-default-rtdb.asia-southeast1.firebasedatabase.app',
+    storageBucket: 'notes-e5c78.appspot.com',
+    measurementId: 'G-0R48RJVSJX',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyB23KUk4Qswf5r7lyvD2s0Qa073KwleBB8',
-    appId: '1:822822023460:android:c1cd4438367cf4e78583b1',
-    messagingSenderId: '822822023460',
-    projectId: 'notes-7958a',
-    storageBucket: 'notes-7958a.appspot.com',
+    apiKey: 'AIzaSyC___0tUZfuknp7KKscTSd9-yScGx5_N2Y',
+    appId: '1:857366467986:android:79b9a07c0d00d76cd1dd4b',
+    messagingSenderId: '857366467986',
+    projectId: 'notes-e5c78',
+    databaseURL: 'https://notes-e5c78-default-rtdb.asia-southeast1.firebasedatabase.app',
+    storageBucket: 'notes-e5c78.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBxSiPN3SrpPCU95zuyBPIBQODJqCUW_xE',
-    appId: '1:822822023460:ios:fe0ec9f686d279638583b1',
-    messagingSenderId: '822822023460',
-    projectId: 'notes-7958a',
-    storageBucket: 'notes-7958a.appspot.com',
+    apiKey: 'AIzaSyBKIFaAkr4EG8lAUzzmp7KAnVMDvlwkX5E',
+    appId: '1:857366467986:ios:a7c1e930fb0a8656d1dd4b',
+    messagingSenderId: '857366467986',
+    projectId: 'notes-e5c78',
+    databaseURL: 'https://notes-e5c78-default-rtdb.asia-southeast1.firebasedatabase.app',
+    storageBucket: 'notes-e5c78.appspot.com',
     iosBundleId: 'com.example.notes',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyBxSiPN3SrpPCU95zuyBPIBQODJqCUW_xE',
-    appId: '1:822822023460:ios:63da9d0f3444b3888583b1',
-    messagingSenderId: '822822023460',
-    projectId: 'notes-7958a',
-    storageBucket: 'notes-7958a.appspot.com',
+    apiKey: 'AIzaSyBKIFaAkr4EG8lAUzzmp7KAnVMDvlwkX5E',
+    appId: '1:857366467986:ios:dcd2da9fb00939f5d1dd4b',
+    messagingSenderId: '857366467986',
+    projectId: 'notes-e5c78',
+    databaseURL: 'https://notes-e5c78-default-rtdb.asia-southeast1.firebasedatabase.app',
+    storageBucket: 'notes-e5c78.appspot.com',
     iosBundleId: 'com.example.notes.RunnerTests',
   );
 }
