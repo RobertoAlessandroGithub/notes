@@ -15,20 +15,15 @@ class NoteService {
 
   static Future<void> updateNote(
       String id, String title, String description) async {
-    Map<String, dynamic> updatedNote = {
+    Map<String, dynamic> updateNote = {
       'title': title,
       'description': description,
     };
-
-    await _notesCollection.doc(id).update(updatedNote);
+    await _notesCollection.doc(id).update(updateNote);
   }
 
   static Future<void> deleteNote(String id) async {
     await _notesCollection.doc(id).delete();
-  }
-
-  static Future<QuerySnapshot> retrieveNotes() {
-    return _notesCollection.get();
   }
 
   static Stream<List<Map<String, dynamic>>> getNoteList() {
