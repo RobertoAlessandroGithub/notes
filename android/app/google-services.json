@@ -1,14 +1,14 @@
 {
   "project_info": {
-    "project_number": "857366467986",
-    "firebase_url": "https://notes-e5c78-default-rtdb.asia-southeast1.firebasedatabase.app",
-    "project_id": "notes-e5c78",
-    "storage_bucket": "notes-e5c78.appspot.com"
+    "project_number": "306433111726",
+    "firebase_url": "https://company-3a055-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "company-3a055",
+    "storage_bucket": "company-3a055.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:857366467986:android:79b9a07c0d00d76cd1dd4b",
+        "mobilesdk_app_id": "1:306433111726:android:273e53f51a62990cee9f3f",
         "android_client_info": {
           "package_name": "com.example.notes"
         }
@@ -16,7 +16,26 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyC___0tUZfuknp7KKscTSd9-yScGx5_N2Y"
+          "current_key": "AIzaSyAkTQtV-DzF_T1A_yYpYUbfVWx6QRLWT_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306433111726:android:c74d482d7103cea4ee9f3f",
+        "android_client_info": {
+          "package_name": "com.example.robertoalessandro_2226250030"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkTQtV-DzF_T1A_yYpYUbfVWx6QRLWT_I"
         }
       ],
       "services": {

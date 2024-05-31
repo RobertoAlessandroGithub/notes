@@ -27,10 +27,7 @@ class DefaultFirebaseOptions {
       case TargetPlatform.macOS:
         return macos;
       case TargetPlatform.windows:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for windows - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return windows;
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
@@ -44,42 +41,54 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDJ_7-kH7yz-wGCdV85dzcmDNVfXez9ru8',
-    appId: '1:857366467986:web:016397a5cac1c674d1dd4b',
-    messagingSenderId: '857366467986',
-    projectId: 'notes-e5c78',
-    authDomain: 'notes-e5c78.firebaseapp.com',
-    databaseURL: 'https://notes-e5c78-default-rtdb.asia-southeast1.firebasedatabase.app',
-    storageBucket: 'notes-e5c78.appspot.com',
-    measurementId: 'G-0R48RJVSJX',
+    apiKey: 'AIzaSyCd9wsi1ZcaxNmsmdFQBJOnSSaCy4ukj0M',
+    appId: '1:306433111726:web:6911f13606441dc0ee9f3f',
+    messagingSenderId: '306433111726',
+    projectId: 'company-3a055',
+    authDomain: 'company-3a055.firebaseapp.com',
+    databaseURL: 'https://company-3a055-default-rtdb.asia-southeast1.firebasedatabase.app',
+    storageBucket: 'company-3a055.appspot.com',
+    measurementId: 'G-FSWCB8RYWC',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyC___0tUZfuknp7KKscTSd9-yScGx5_N2Y',
-    appId: '1:857366467986:android:79b9a07c0d00d76cd1dd4b',
-    messagingSenderId: '857366467986',
-    projectId: 'notes-e5c78',
-    databaseURL: 'https://notes-e5c78-default-rtdb.asia-southeast1.firebasedatabase.app',
-    storageBucket: 'notes-e5c78.appspot.com',
+    apiKey: 'AIzaSyAkTQtV-DzF_T1A_yYpYUbfVWx6QRLWT_I',
+    appId: '1:306433111726:android:273e53f51a62990cee9f3f',
+    messagingSenderId: '306433111726',
+    projectId: 'company-3a055',
+    databaseURL: 'https://company-3a055-default-rtdb.asia-southeast1.firebasedatabase.app',
+    storageBucket: 'company-3a055.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBKIFaAkr4EG8lAUzzmp7KAnVMDvlwkX5E',
-    appId: '1:857366467986:ios:a7c1e930fb0a8656d1dd4b',
-    messagingSenderId: '857366467986',
-    projectId: 'notes-e5c78',
-    databaseURL: 'https://notes-e5c78-default-rtdb.asia-southeast1.firebasedatabase.app',
-    storageBucket: 'notes-e5c78.appspot.com',
+    apiKey: 'AIzaSyAYTBDE0P4p6Pijl84QuIEAIPHJvX3pp0Y',
+    appId: '1:306433111726:ios:c380f43df53ded2cee9f3f',
+    messagingSenderId: '306433111726',
+    projectId: 'company-3a055',
+    databaseURL: 'https://company-3a055-default-rtdb.asia-southeast1.firebasedatabase.app',
+    storageBucket: 'company-3a055.appspot.com',
     iosBundleId: 'com.example.notes',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyBKIFaAkr4EG8lAUzzmp7KAnVMDvlwkX5E',
-    appId: '1:857366467986:ios:dcd2da9fb00939f5d1dd4b',
-    messagingSenderId: '857366467986',
-    projectId: 'notes-e5c78',
-    databaseURL: 'https://notes-e5c78-default-rtdb.asia-southeast1.firebasedatabase.app',
-    storageBucket: 'notes-e5c78.appspot.com',
-    iosBundleId: 'com.example.notes.RunnerTests',
+    apiKey: 'AIzaSyAYTBDE0P4p6Pijl84QuIEAIPHJvX3pp0Y',
+    appId: '1:306433111726:ios:c380f43df53ded2cee9f3f',
+    messagingSenderId: '306433111726',
+    projectId: 'company-3a055',
+    databaseURL: 'https://company-3a055-default-rtdb.asia-southeast1.firebasedatabase.app',
+    storageBucket: 'company-3a055.appspot.com',
+    iosBundleId: 'com.example.notes',
   );
+
+  static const FirebaseOptions windows = FirebaseOptions(
+    apiKey: 'AIzaSyCd9wsi1ZcaxNmsmdFQBJOnSSaCy4ukj0M',
+    appId: '1:306433111726:web:67ff1a3e5b9a73d1ee9f3f',
+    messagingSenderId: '306433111726',
+    projectId: 'company-3a055',
+    authDomain: 'company-3a055.firebaseapp.com',
+    databaseURL: 'https://company-3a055-default-rtdb.asia-southeast1.firebasedatabase.app',
+    storageBucket: 'company-3a055.appspot.com',
+    measurementId: 'G-GFR5KE6NTT',
+  );
+
 }
